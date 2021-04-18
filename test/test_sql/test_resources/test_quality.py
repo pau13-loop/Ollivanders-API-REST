@@ -2,7 +2,7 @@ import pytest
 import json
 
 
-@pytest.mark.db_test
+@pytest.mark.resource_test
 def test_quality(client):
     """Test the GET request of Quality resource, test if since a request it can get an item by its quality
 
@@ -18,7 +18,7 @@ def test_quality(client):
 
 
 
-@pytest.mark.db_test
+@pytest.mark.resource_test
 def test_quality_fail(client):
     """Test the GET request of Quality resource, test if since a request it can get an item by its quality, but this quality isn't belong to any items
 

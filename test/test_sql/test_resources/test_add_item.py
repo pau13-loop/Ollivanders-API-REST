@@ -3,7 +3,8 @@ import pytest
 import json
 
 
-@pytest.mark.db_test
+
+@pytest.mark.resource_test
 def test_post_item(client):
     """Test the POST request of Items resource, test if since a request it can add an item
 

@@ -139,4 +139,6 @@ dmypy.json
 .idea/
 .idea/dataSources.xml
 .idea/dataSources/
+
+# Unignore Sphinx Documentation
 !/docs/build/
