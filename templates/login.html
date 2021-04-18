@@ -67,73 +67,7 @@
         <!--?????????????????????????-->
 
         <div id="form-formulario" class="info-div">
-<!-- 
-            <form id="formulario">
 
-            <h3>
-                Danos tu opinión sobre nuestro producto
-            </h3> -->
-
-            <!--Nombre Usuario-->
-            <!-- <label for="usuario">Nombre de Usuario</label>
-            <input type="text" name="usuario" id="usuario" placeholder="Nombre de Usuario" required> -->
-
-            <!--Edad-->
-            <!-- <label for="edad">Edad</label>
-            <input type="number" name="edad" id="edad" placeholder="Tu edad" required title="Debes indicar tu edad"> -->
-
-            <!--Comentario-->
-            <!-- <label for="usuario">Tu comentario</label>
-            <textarea name="comentario" id="comentario" cols="30" rows="10" required></textarea> -->
-<!-- 
-            <button class="login" onclick="validacionComentario()">Enviar</button>
-
-            <button class="" type="reset">Limpiar Comentario</button>
-
-            </form>
-
-            <button class="" onclick="agregarComentario()">Agregar Comentario</button> -->
-
-
-
-            <form id="formulario" method="POST" action="/login">
-
-                <img src="{{ url_for('static', filename='img/content_img/svg/wand.svg')}}" alt="" width="350px" height="350px">
-
-                <br>
-                <br>
-
-
-                <h2>
-                    Log In
-                </h2>
-
-                
-                {{ form.hidden_tag() }}
-                <div class="user-password">
-                {{ wtf.form_field(form.username) }}
-                </div>
-
-                <div class="user-password">
-                {{ wtf.form_field(form.password) }}
-                </div>
-
-
-                
-                {{ wtf.form_field(form.remember) }}
-                
-
-                
-                
-                <button class="login" type="submit">Sign in</button>
-
-                
-              </form>
-
-              
-
-
-        </div>
 
         <!--?????????????????????????-->
 
