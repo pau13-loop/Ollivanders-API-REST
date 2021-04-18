@@ -2,7 +2,7 @@
 
 [![status application](https://img.shields.io/badge/status-stable-green)](https://github.com/pau13-loop/Ollivander_API-REST)
 [![test passing](https://img.shields.io/badge/test-passing-green)](https://docs.pytest.org/en/stable/)
-[![coverage](https://img.shields.io/badge/coverage-95%25-green)](https://coverage.readthedocs.io/en/coverage-5.5/)
+[![coverage](https://img.shields.io/badge/coverage-91%25-yellowgreen)](https://coverage.readthedocs.io/en/coverage-5.5/)
 [![python](https://img.shields.io/badge/python-v37-blue)](https://www.python.org/downloads/)
 [![flask restful](https://img.shields.io/badge/flask--restful-v0.3.8-important)](https://flask-restful.readthedocs.io/en/latest/)
 
@@ -421,12 +421,12 @@ Finally, we think that this project has been really grateful to ourselves both f
 **[⬆ back to top](#table-of-contents)**
 
 
-## UML Diagram
+## Clokify
 
 We will like to share with you our time rates to develop this project. How I said before one of the most important parts of a project is know how administrate your time and prioritize tasks and goals. By these graphics we hope you can get an idea of what we mean. Probably you'll see sections of the project that could be have done much better, and this probably will be reflected on the time we have spent doing this task. We are definitely very happy about the results, but we know with the time we have invested we could have done much more but keep in mind that we are learning, every day, and we like to spent time learning new concepts deeply with the intention to get a good base knowledge and avoid future errors or unless know how to solve them. Clokify is a fantastic tool for developers that want to keep track of their time, and the good point is that is really easy to use. Try it !
 
-![Lineal Clokify Diagram](./docs/lineal_diagram.png "Lineal Clokify Diagram"")
-![Circle Clokify Diagram](./docs/circle_diagram.png "Circle Clokify Diagram"")
+![Lineal Clokify Diagram](./docs/lineal_diagram.JPG "Lineal Clokify Diagram")
+![Circle Clokify Diagram](./docs/circle_diagram.JPG "Circle Clokify Diagram")
 ---
 
 **[⬆ back to top](#table-of-contents)**
