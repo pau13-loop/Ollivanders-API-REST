@@ -9,6 +9,7 @@ from repository.repository_sql.repo import Factory
 
 
 @pytest.mark.db_test
+@pytest.mark.update_quality_db
 def test_udpate_quality_items_db(session):
     """Test if through session we can update the quality of all items
 
