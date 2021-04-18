@@ -7,6 +7,7 @@ from repository.repository_sql.models.items import Items
 
 
 @pytest.mark.db_test
+@pytest.mark.delete_item_db
 def test_delete_item_db(session):
     """Test if through session we can delete an item
 
