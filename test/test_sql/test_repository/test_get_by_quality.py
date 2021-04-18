@@ -7,6 +7,7 @@ from repository.repository_sql.models.items import Items
 
 
 @pytest.mark.db_test
+@pytest.mark.db_filter_by_sell_in
 def test_get_by_quality_db(session):
     """Test if through session we can get an item by its quality
 
