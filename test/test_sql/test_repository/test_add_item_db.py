@@ -6,6 +6,7 @@ from service.service_sql.service import Service
 from repository.repository_sql.models.items import Items
 
 @pytest.mark.db_test
+@pytest.mark.add_item_db
 def test_add_item_db(session):
     """Test if through session we can add an item
 
