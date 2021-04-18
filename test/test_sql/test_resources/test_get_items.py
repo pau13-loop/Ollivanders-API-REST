@@ -14,7 +14,8 @@ defaultInventory = [
 ]
 
 
-@pytest.mark.db_test
+
+@pytest.mark.resource_test
 def test_get_items(client):
     """Test the GET request of Inventario resource, test if since a request it can get all items
 

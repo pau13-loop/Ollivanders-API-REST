@@ -14,7 +14,8 @@ inventory_without_Conjured = [
 ]
 
 
-@pytest.mark.db_test
+
+@pytest.mark.resource_test
 def test_delete_item(client):
     """Test the DELETE request of Items resource, test if since a request it can delete an item
 

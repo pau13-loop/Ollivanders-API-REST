@@ -15,7 +15,7 @@ expected_updated_inventory = [
 ]
 
 
-@pytest.mark.db_test
+@pytest.mark.resource_test
 def test_update_quality(client):
     """Test the GET request of UpdateQuality resource, test if since a request it can get all items with their quality updated
 

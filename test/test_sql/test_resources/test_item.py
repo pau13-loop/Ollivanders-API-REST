@@ -4,7 +4,8 @@ import json
 
 
 
-@pytest.mark.db_test
+
+@pytest.mark.resource_test
 def test_item(client):
     """Test the GET request of Items resource, test if since a request it can get an item
 
@@ -17,7 +18,8 @@ def test_item(client):
 
 
 
-@pytest.mark.db_test
+
+@pytest.mark.resource_test
 def test_item_name_fail(client):
     """Test the GET request of Items resource, test if since a request it can get an item that don't exist
 

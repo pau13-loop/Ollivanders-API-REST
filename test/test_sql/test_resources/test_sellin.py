@@ -2,7 +2,7 @@ import pytest
 import json
 
 
-@pytest.mark.db_test
+@pytest.mark.resource_test
 def test_sell_in(client):
     """Test the GET request of Sellin resource, test if since a request it can get an item by its sell_in
 
@@ -21,7 +21,7 @@ def test_sell_in(client):
     ]
 
 
-@pytest.mark.db_test
+@pytest.mark.resource_test
 def test_sell_in_fail(client):
     """Test the GET request of Sellin resource, test if since a request it can get an item by its sell_in, but this sell_in isn't belong to any items
 
