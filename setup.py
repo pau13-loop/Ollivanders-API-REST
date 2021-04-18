@@ -68,7 +68,6 @@ setuptools.setup(
         "GitPython==3.1.14",
         "greenlet==1.0.0",
         "identify==2.2.2",
-        "idna==3.1",
         "imagesize==1.2.0",
         "importlib-metadata==3.10.1",
         "iniconfig==1.1.1",
