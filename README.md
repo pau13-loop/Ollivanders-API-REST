@@ -42,6 +42,7 @@
 1. [UML Diagram](#uml-diagram)
 1. [Clokify](#clokify)
 1. [Bibliography](#bibliography)
+1. [Documentation](#documentation)
 1. [License](#license)
 1. [Authors](#authors)
 
@@ -377,15 +378,17 @@ directories:
 - [x] Register and login form
  validation
  
-- [ ] Switch user connection
+- [x] Fetch GET method with dynamic
+endpoints
 
-- [ ] Fetch GET method with dynamic
- endpoints
+- [x] Use two data bases with the
+ same api-rest 
+ 
+- [ ] Switch user connection
    
 - [ ] Implement a shop 
 
-- [ ] Use two data bases with the
- same api-rest 
+- [ ] Add a wallet for each user
 
 ---
 
@@ -435,6 +438,16 @@ We will like to share with you our time rates to develop this project. How I sai
 ## Bibliography
 
 [Bibliography](./docs/bibliography.md)
+
+---
+
+**[⬆ back to top](#table-of-contents)**
+
+
+## Documentation
+
+<!--- To post documentation, https://raw.githack.com/ -->
+[Documentation Ollivanders-API-REST](https://rawcdn.githack.com/pau13-loop/Ollivanders-API-REST/main/docs/build/html/index.html)
 
 ---
 
