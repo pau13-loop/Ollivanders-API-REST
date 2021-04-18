@@ -446,7 +446,8 @@ We will like to share with you our time rates to develop this project. How I sai
 
 ## Documentation
 
-[Documentation Ollivanders-API-REST](https://rawcdn.githack.com/pau13-loop/Ollivanders-API-REST/blob/main/docs/build/html/index.html)
+<!--- To post documentation, https://raw.githack.com/ -->
+[Documentation Ollivanders-API-REST](https://rawcdn.githack.com/pau13-loop/Ollivanders-API-REST/main/docs/build/html/index.html)
 
 ---
 
